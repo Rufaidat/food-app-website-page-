@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #4b4b73;
+  text-align: center;
+}
+main {
+  width: 300px;
+  height: 370px;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+}
+header {
+  width: 50%;
+  height: 5rem;
+  margin: 7rem auto 0rem;
+}
+header a {
+  background-color: #363549;
+  padding: 1.5rem;
+  margin-right: -2.5px;
+}
+header a.active {
+  background-color: #212022;
+  padding: 2rem 2.2rem;
+  margin-left: -2px;
+  border: 1px solid rgb(36, 34, 34);
+  box-shadow: 2px 2px 5px black;
+}
+header a:hover {
+  background-color: #2d2d39;
+}
+.banner {
+  background-image: url(img/food.jpg);
+  background-size: cover;
+  height: 45%;
+  color: white;
+  text-align: left;
+  position: relative;
+  padding: 0 1rem;
+}
+h1 {
+  position: absolute;
+  top: 4rem;
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 0.9rem;
+}
+.content {
+  color: #a1a1a4;
+}
+.content div {
+  padding: 0 1rem;
+}
+.content div:not(div:first-of-type) {
+  border-top: 1px solid #d9d8da;
+}
+.content .flex:hover + .num {
+  color: #0d0d0e;
+}
+.num:hover {
+  color: red;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.start {
+  justify-content: flex-start;
+  position: absolute;
+  top: 7rem;
+}
+.start img {
+  height: 1rem;
+  margin-top: 0.8rem;
+}
